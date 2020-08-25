@@ -1,4 +1,10 @@
+@font-face {
+  font-family: Exo_2-Thin;
+  src: url(/Exo2.0-Thin.otf);
+}
+
 body {
+  background: black;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +17,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

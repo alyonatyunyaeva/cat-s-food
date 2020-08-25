@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background: url(/pattern.svg) repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.products-list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.products-list__title {
+  font-family: Exo_2-Thin, Helvetica;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: 0 1px 1px #000000;
+  margin-bottom: 28px;
+  margin-top: 20px;
+}
+
+.products-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+

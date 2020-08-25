@@ -24,20 +24,18 @@
 .product_selected .product__card {
     border: #D91667 solid 4px ;
 }
-
 .product_disabled .product__card {
     border: #B3B3B3 solid 4px ;
 }
-
 .product__card::before {
     content: "";
     position: absolute;
     background-color: #1698D9;
-    width: 5px;
-    height: 78px;
+    width: 6px;
+    height: 43px;
     transform: skew(-44deg);
-    top: -15px;
-    left: 11px;
+    top: -4px;
+    left: 15px;
     z-index: 2;
 }
 .product_selected .product__card::before {
@@ -150,10 +148,13 @@
 .product_disabled .product__description{
     color: #FFFF66;
 }
-
 .product__link  {
     color: #1698D9; 
     text-decoration: none;
     border-bottom: 1px dashed #1698D9;
-  }
-  
+}
+@media only screen and (max-width: 600px) {
+    .product {
+        margin: 0 0 30px;
+    }
+}
